@@ -5,5 +5,10 @@
 
 <!-- Body  -->
 {% block page_content %}
-
+    <div class="welcome-message">
+        <p>
+            FIND OUT WHAT TO WATCH, LISTEN OR READ<br> NEXT WITH THE HELP FROM FRIENDS AND FAMILY
+        </p>
+        <a href="{{ url_for('login') }}"><button class="btn-signup">SIGN UP NOW</button></a>
+    </div>
 {% endblock %}

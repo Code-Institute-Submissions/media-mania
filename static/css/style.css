@@ -1,14 +1,24 @@
 /* Google Fonts Roboto & Bangers */
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:wght@300;400&display=swap');
 
 /* Base styles */
 body{
+    display: flex;
+    flex-direction: column;
     font-family: 'Roboto', sans-serif;
     background-image: url(../images/mmlp-image.png);
     background-repeat:no-repeat;
     background-position: center center;
     background-size: cover;
     height: 100vh;
+}
+
+header{
+    flex-grow: 1;
+}
+
+main{
+    flex-grow: 1;
 }
 
 ul{
@@ -20,13 +30,21 @@ a{
     color: #fff;
 }
 
+a:hover{
+    color: #fff;
+}
+
 button{
-    background-color: #0FBB46;
+    background-color: #00b138;
     font-weight: bold;
     border: 0;
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
+}
+
+button:hover{
+    background-color: #007425;
 }
 
 /* Media Mania selectors */
@@ -67,4 +85,21 @@ button{
 .mm-regbutton{
     align-items: center;
     height: 20px;
+}
+
+/* Homepage content */
+
+.welcome-message{
+    text-align: center;
+    color: #fff;
+}
+
+.welcome-message>p{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.btn-signup{
+    width: 200px;
 }
