@@ -1,0 +1,70 @@
+/* Google Fonts Roboto & Bangers */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:wght@300&display=swap');
+
+/* Base styles */
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../images/mmlp-image.png);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+button{
+    background-color: #0FBB46;
+    font-weight: bold;
+    border: 0;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Media Mania selectors */
+
+/* Navigation bar */
+.mm-navbar, .mm-logo, .mm-navlinks {
+    display: flex;
+}
+
+.mm-logo, .mm-navlinks{
+    align-items: center;
+}
+
+.mm-navbar{
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mm-logo{
+    font-family: 'Bangers', cursive;
+    font-size: 1.5em;
+    height: 50px;
+}
+
+.mm-brandname{
+    height: 30px;
+    margin-left: 10px;
+}
+
+.mm-link{
+    height: 10px;
+    align-items: center;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.mm-regbutton{
+    align-items: center;
+    height: 20px;
+}
